@@ -4,7 +4,7 @@
 
 cell_w=10
 # horizontal line
-line_seg=$(seq  -f "-" -s '' $(($cell_w*3/3-1)))
+line_seg="---------"
 line="  ""$line_seg""|""$line_seg""|""$line_seg"
 
 pink="\033[35m"
